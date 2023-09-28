@@ -85,6 +85,7 @@ services:
     volumes:
       - ~/sonarr/config:/config
       - ~/media/tvshows:/tv
+      - ~/media/anime:/anime
       - ~/Downloads:/downloads
     ports:
       - 8989:8989
@@ -116,3 +117,18 @@ services:
      volumes:
           - ~/jellyseerr/config:/app/config
      restart: unless-stopped
+
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+    volumes:
+      - ~/lidarr/config:/config
+      - ~/media/music:/music
+      - ~/Downloads:/downloads
+    ports:
+      - 8686:8686
+    restart: unless-stopped

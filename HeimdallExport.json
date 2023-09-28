@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Jellyfin",
+    "colour": "#161b1f",
+    "url": "http://debian-server:8096",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"password\":\"ba248f2bdf3949aca81676e61696573e\"}",
+    "appid": "3e0a7f109bd760b9474c78cb652e8c3e82669226",
+    "appdescription": "Jellyfin is the Free Software Media System that puts you in control of managing and streaming your media. There are no strings attached, no premium licenses or features, and no hidden agendas."
+  },
+  {
+    "title": "Jellyseerr",
+    "colour": "#161b1f",
+    "url": "http://debian-server:5055",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"apikey\":\"MTY5NTg5MDQzNjI0NjQ4MDA5ODQ4LWQ3MDEtNGEyNS1iNGZmLTA2YjYyMGNmN2U1Yw==\"}",
+    "appid": "0628c8d1a4868d6e6b994ae43a091f4e142ce642",
+    "appdescription": "Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers!"
+  },
+  {
+    "title": "Radarr",
+    "colour": "#fafbfc",
+    "url": "http://debian-server:7878",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"apikey\":\"5c8725fbe7b949218024aeeb4a53845b\"}",
+    "appid": "8a5cd39a1a5dff323d63bbe45fffe0c9c03bd2e7",
+    "appdescription": "Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.\r\n\r\nThe project was inspired by other Usenet/BitTorrent movie downloaders such as CouchPotato."
+  },
+  {
+    "title": "Sonarr",
+    "colour": "#161b1f",
+    "url": "http://debian-server:8989",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"apikey\":\"eab6a3faeb3147f9b6dd7b5ae292ae47\"}",
+    "appid": "6e2a525ceb737f9ed8badcef5eb20d1502e39656",
+    "appdescription": "Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available."
+  },
+  {
+    "title": "qBittorrent",
+    "colour": "#161b1f",
+    "url": "http://debian-server:8080/",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"username\":\"raven\",\"password\":\"Fuck@1234\"}",
+    "appid": "3ebd4dd8afe6308e392ccf09e3516eee99a1e8df",
+    "appdescription": "The qBittorrent project aims to provide an open-source software alternative to µTorrent."
+  },
+  {
+    "title": "cam2ip",
+    "colour": "#161b1f",
+    "url": "http://debian-server:56000",
+    "description": null,
+    "appid": "null",
+    "appdescription": "\\"
+  },
+  {
+    "title": "Prowlarr",
+    "colour": "#161b1f",
+    "url": "http://debian-server:9696",
+    "description": "{\"enabled\":\"1\",\"override_url\":null,\"apikey\":\"97cc81e3d9b64256a5e70d427e1f19b0\"}",
+    "appid": "de6ff49c94538e6e13a77f75991141a4fe9af8bf",
+    "appdescription": "Prowlarr is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all)."
+  }
+]
